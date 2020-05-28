@@ -1,0 +1,22 @@
+
+.student{
+    font-size: 38px;
+}
+.frm{
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    padding-top: 12px;
+}
+.name{
+    height: 30%;
+    width: 40%;
+    font-weight: bold;
+    font-size: 20px;
+}
+@media only screen and(max-width:450px){
+    .frm{
+        flex-direction: column;
+    }
+}

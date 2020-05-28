@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="frm.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="POST">  
+    <fieldset>
+        <legend class="student">Student Registration Form</legend>
+        <div class="frm">
+            <div class="name">
+                <label for="fname">First name:</label><br>
+                <input type="text" name="fmane" autofocus required><br>
+            </div>
+            <div class="name">
+                <label for="mname">Middle name:</label><br>
+                <input type="text" name="mname" required><br>
+            </div>
+            <div class="name">
+                <label for="lname">Last name:</label><br>
+                <input type="text" name="lname"><br>
+            </div>
+        </div>
+        <label for="number" class="name">Phone Number:</label><br>
+        <input type="text" name="number" required><br><br>
+        <label for="birthday" class="name">Birthday:</label>
+        <input type="date" name="birthday" required><br><br>
+        <label for="bloodgrp" class="name">Blood Group:</label><br>
+        <input type="text" name="bloodgrp" required><br><br>
+        <label for="gender" class="name">Gender:</label><br>
+        <input type="radio" name="gender">Male &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" name="gender">Female &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" name="gender">Other<br><br>
+        <label for="nationality" class="name">Nationality:</label><br>
+        <select>
+            <option value="indian">Indian</option>
+            <option value="sikhs">Sikhs</option>
+            <option value="tamil">Tamils</option>
+        </select><br><br>
+        <label for="course" class="name">Course:</label><br>
+        <select>
+            <option value="btech">Btech(Bachelor of technology)</option>
+            <option value="bba">BBA</option>
+            <option value="mtech">Mtech</option>
+            <option value="BSC">BSC</option>
+            <option value="law">Law</option>
+            <option value="hotel">Hotel Management</option>
+        </select><br><br>
+        <label for="mail" class="name">Email:</label><br>
+        <input type="email" id="email" required><br><br>
+        <label for="address" class="name">Address:</label><br>
+        <input type="text" required><br><br>
+        <label for="country" class="name">Country:</label><br>
+        <select>
+            <option value="india">India</option>
+            <option value="London">London</option>
+        </select><br><br>
+        <label for="hobbie" class="name">Intrests/Hobbies:</label><br>
+        <input type="checkbox" >Sketching &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+        <input type="checkbox" >Painting &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+        <input type="checkbox">Dancing &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+        <input type="checkbox">Singing &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+        <input type="checkbox">Graphics Designing &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+        <input type="checkbox">Coading &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<br><br>
+        <label for="awards" class="name">Achievements/Awards:</label><br>
+        <textarea name="awards" rows="10" cols="90"></textarea><br><br>
+        <input type="submit">  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+        <input type="reset" value="Reset">
+    </fieldset>
+    </form>
+</body>
+
+</html>
